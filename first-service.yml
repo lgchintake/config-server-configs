@@ -1,13 +1,3 @@
-eureka:
-  ip: 127.0.0.1
-  port: 8888
-  instanceId: ${spring.application.name}:${random.int}
-  instance:
-    prefer-ip-address: true
-  username: discoveryuser
-  client:
-    service-url:
-      defaultZone: http://${eureka.ip}:${eureka.port}/eureka/
 spring:
   application:
     name: first-service
