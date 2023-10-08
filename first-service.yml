@@ -3,3 +3,6 @@ spring:
     name: first-service
 server:
   port: 8090
+employee:
+  firstName: John
+  lastName: Doe
